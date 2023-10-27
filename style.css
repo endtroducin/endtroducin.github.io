@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'JosefinSans';
+    font-stretch: 75 125; /* Note that font-stretch is a % of normal width */
+    font-style: normal;
+    font-weight: 100 700;
+    src: url('/fonts/JosefinSans-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'JosefinSans Italic';
+    font-stretch: 75 125; /* Note that font-stretch is a % of normal width */
+    font-style: italic;
+    font-weight: 100 700;
+    src: url('/fonts/JosefinSans-Italic-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'JosefinSlab';
+    font-stretch: 75 125; /* Note that font-stretch is a % of normal width */
+    font-style: normal;
+    font-weight: 100 700;
+    src: url('/fonts/JosefinSlab-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'JosefinSlab Italic';
+    font-stretch: 75 125; /* Note that font-stretch is a % of normal width */
+    font-style: italic;
+    font-weight: 100 700;
+    src: url('/fonts/JosefinSlab-Italic-VariableFont_wght.ttf') format('truetype');
+  }
+
+html {
+    scroll-snap-type: y mandatory;
+    font-size: 16px;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+section, header, footer {
+    height: 100lvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center;
+}
+
+header, footer {
+    font-family: "JosefinSlab";
+    font-size: 2rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    height: 95lvh;
+    width: 90lvw;
+    align-items: center;
+}
+
+.greeting {
+    margin-top: auto;
+    margin-right: auto;
+    font-size: 5rem;
+    font-weight: 500;
+}
+
+.presenting {
+    margin-top:auto;
+    font-family: "JosefinSans";
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.arrow {
+    color:#068FFF;
+}
+
+.linkedin {
+    font-size: 5rem;
+    text-align: center;
+    color: #4E4FEB;
+}
+
+section div {
+    width: 100lvw;
+    height: 100lvh;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #0a0a0a;
+}
+
+
+/* #region Images */
+.image01 {
+    background-image: url("/images/REMAX\ -\ Moving\ Up\ Postcards.png");
+}
+
+.image02 {
+    background-image: url("/images/REMAX\ -\ Going\ Green\ Postcards.png");
+}
+
+.image03 {
+    background-image: url("/images/DallaVilla\ -\ Peace\ Frogs\ Catalog.png");
+}
+
+.image04 {
+    background-image: url("/images/Bizport\ -\ Marketing.png");
+}
+
+.image05 {
+    background-image: url("/images/Allegra\ -\ 2017\ Calendar.png");
+}
+
+.image06 {
+    background-image: url("/images/Allegra\ -\ Konikoff\ Brochures.png");
+}
+
+.image07 {
+    background-image: url("/images/Allegra\ -\ Promotional\ Products\ Mailer.png");
+}
+
+.image08 {
+    background-image: url("/images/Allegra\ -\ Covid\ Mailer.png");
+}
+
+.image09 {
+    background-image: url("/images/Allegra\ -\ Bay\ Daze\ Catalog.png");
+}
+
+.image10 {
+    background-image: url("/images/Allegra\ -\ Compatibilities\ Folder.png");
+}
+/* #endregion */
+
+/* Title & Category */
+#title {
+    font-family: "JosefinSans";
+    color: #EEEEEE;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    z-index: 100;
+    border-bottom:#4E4FEB 2px solid
+  }
+
+
+
+
+#category {
+    font-family: "JosefinSans";
+    color: #068FFF;
+    position: fixed;
+    text-transform: uppercase;
+    top: 5rem;
+    right: 1rem;
+    font-size: 1.25rem;
+    z-index: 100;
+  }
+
+
+.title {
+    font-family: "JosefinSans";
+    color: #EEEEEE;
+    /* position: fixed; */
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    z-index: 100;
+    border-bottom:#4E4FEB 2px solid;
+    /* margin-bottom: auto; */
+    /* padding: 1rem 0.5rem 0rem 1rem; */
+    margin: 1rem 1rem 0 auto;
+}
+
+
+  .category {
+    font-family: "JosefinSans";
+    color: #068FFF;
+    /* position: fixed; */
+    text-transform: uppercase;
+    top: 5rem;
+    right: 1rem;
+    font-size: 1.25rem;
+    z-index: 100;
+    /* padding: 0.5rem; */
+    margin: 0.5rem 1rem auto auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+
+  } 
