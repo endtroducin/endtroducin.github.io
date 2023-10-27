@@ -95,6 +95,7 @@ section div {
     background-color: #0a0a0a;
 }
 
+
 /* #region Images */
 .image01 {
     background-image: url("/images/REMAX\ -\ Moving\ Up\ Postcards.png");
@@ -149,6 +150,9 @@ section div {
     border-bottom:#4E4FEB 2px solid
   }
 
+
+
+
 #category {
     font-family: "JosefinSans";
     color: #068FFF;
@@ -160,6 +164,34 @@ section div {
     z-index: 100;
   }
 
+
+.title {
+    font-family: "JosefinSans";
+    color: #EEEEEE;
+    /* position: fixed; */
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    z-index: 100;
+    border-bottom:#4E4FEB 2px solid;
+    /* margin-bottom: auto; */
+    /* padding: 1rem 0.5rem 0rem 1rem; */
+    margin: 1rem 1rem 0 auto;
+}
+
+
+  .category {
+    font-family: "JosefinSans";
+    color: #068FFF;
+    /* position: fixed; */
+    text-transform: uppercase;
+    top: 5rem;
+    right: 1rem;
+    font-size: 1.25rem;
+    z-index: 100;
+    /* padding: 0.5rem; */
+    margin: 0.5rem 1rem auto auto;
+  }
 
   @media only screen and (max-width: 600px) {
     html {
