@@ -40,7 +40,7 @@ body {
 }
 
 section, header, footer {
-    height: 100dvh;
+    height: 100svh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,8 +56,8 @@ header, footer {
 .intro {
     display: flex;
     flex-direction: column;
-    height: 95dvh;
-    width: 90dvw;
+    height: 95svh;
+    width: 90svw;
     align-items: center;
 }
 
@@ -86,8 +86,8 @@ header, footer {
 }
 
 section div {
-    width: 100dvw;
-    height: 100dvh;
+    width: 100svw;
+    height: 100svh;
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ section div {
     border-bottom:#4E4FEB 2px solid;
     /* margin-bottom: auto; */
     /* padding: 1rem 0.5rem 0rem 1rem; */
-    margin: 1rem 1rem 0 auto;
+    margin: 5rem 2rem 0 auto;
 }
 
 
@@ -190,7 +190,7 @@ section div {
     font-size: 1.25rem;
     z-index: 100;
     /* padding: 0.5rem; */
-    margin: 0.5rem 1rem auto auto;
+    margin: 0.5rem 2rem auto auto;
   }
 
   @media only screen and (max-width: 600px) {
