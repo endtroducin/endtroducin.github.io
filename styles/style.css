@@ -40,7 +40,7 @@ body {
 }
 
 section, header, footer {
-    height: 100lvh;
+    height: 100svh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,7 +176,7 @@ section div {
     border-bottom:#4E4FEB 2px solid;
     /* margin-bottom: auto; */
     /* padding: 1rem 0.5rem 0rem 1rem; */
-    margin: 2rem 2rem 0 auto;
+    margin: 3rem 3rem 0 auto;
 }
 
 
@@ -190,7 +190,7 @@ section div {
     font-size: 1.25rem;
     z-index: 100;
     /* padding: 0.5rem; */
-    margin: 0.5rem 2rem auto auto;
+    margin: 0.5rem 3rem auto auto;
   }
 
   @media only screen and (max-width: 600px) {
