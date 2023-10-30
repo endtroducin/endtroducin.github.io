@@ -92,7 +92,15 @@ section div {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    /* background-color: #0a0a0a; */
+}
+
+.movingUp, .peaceFrogs, .allegra, .promoPower, .bayDaze {
     background-color: #0a0a0a;
+}
+
+.goingGreen, .bizPort, .konikoff, .reopening, .capabilities {
+    background-color: #1a1a1a;
 }
 
 
@@ -176,7 +184,7 @@ section div {
     border-bottom:#4E4FEB 2px solid;
     /* margin-bottom: auto; */
     /* padding: 1rem 0.5rem 0rem 1rem; */
-    margin: 5rem 2rem 0 auto;
+    margin: 2rem 2rem 0 auto;
 }
 
 
