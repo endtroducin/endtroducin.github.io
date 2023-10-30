@@ -31,7 +31,7 @@
   }
 
 html {
-    scroll-snap-type: y mandatory;
+    scroll-snap-type: y proximity;
     font-size: 16px;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 section, header, footer {
-    height: 100svh;
+    height: 100lvh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,8 +56,8 @@ header, footer {
 .intro {
     display: flex;
     flex-direction: column;
-    height: 95svh;
-    width: 90svw;
+    height: 95lvh;
+    width: 90lvw;
     align-items: center;
 }
 
@@ -86,8 +86,8 @@ header, footer {
 }
 
 section div {
-    width: 100svw;
-    height: 100svh;
+    width: 100lvw;
+    height: 100lvh;
     position: absolute;
     background-position: center;
     background-repeat: no-repeat;
