@@ -32,7 +32,13 @@ function renderDayButtons() {
   const dayNav = document.getElementById('day-nav');
   const days = Object.keys(grouped);
   dayNav.innerHTML = days.map((d, i) => {
-    const label = new Date(d).toLocaleDateString(undefined, { weekday: 'long' });
+const weekdayMap = {
+  '2025-06-28': 'Saturday',
+  '2025-06-29': 'Sunday',
+  '2025-06-30': 'Monday',
+  '2025-07-01': 'Tuesday'
+};
+const label = weekdayMap[d] || new Date(d).toLocaleDateString(undefined, { weekday: 'long' });
     return `<button data-day="${d}" class="${i===0?'active':''}">${label}</button>`;
   }).join('');
   dayNav.querySelectorAll('button').forEach(btn => {
