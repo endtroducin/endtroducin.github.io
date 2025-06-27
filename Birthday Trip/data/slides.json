@@ -1,0 +1,124 @@
+{
+  "slides": [
+    {
+      "title": "Tipsy Beans Café",
+      "description": "Cozy brunch spot known for strong coffee, creative cocktails, and a laid‑back atmosphere.",
+      "image": "/images/tipsy‑beans.jpg",
+      "website": "https://www.tipsybeanscafe.com",
+      "startTime": "2025-06-28T07:30",
+      "endTime": "2025-06-28T08:30",
+      "lat": 37.288400822878664,
+      "lon": -76.72460587376602
+    },
+    {
+      "title": "Residents Cafe & Bar",
+      "description": "Hip spot featuring a global menu with brunch classics, burgers & meat plates, plus wine & cocktails.",
+      "image": "images/residents.jpg",
+      "website": "https://www.residentsdc.com",
+      "startTime": "2025-06-28T13:45",
+      "endTime": "2025-06-28T15:15",
+      "lat": 38.90948,
+      "lon": -77.04182
+    },
+    {
+      "title": "Dupont Underground",
+      "description": "An abandoned trolley station transformed into an arts venue beneath Dupont Circle.",
+      "image": "images/dupont‑underground.jpg",
+      "website": "http://dupontunderground.org",
+      "startTime": "2025-06-28T15:15",
+      "endTime": "2025-06-28T16:00",
+      "lat": 38.90943,
+      "lon": -77.04344
+    },
+    {
+      "title": "Regal Gallery Place",
+      "description": "Theater complex with multiple screens featuring new release films, plush seating & concession stand.",
+      "image": "images/regal‑gallery‑place.jpg",
+      "website": "https://www.regmovies.com/theatres/regal-gallery-place-4dx-1551",
+      "startTime": "2025-06-29T10:30",
+      "endTime": "2025-06-29T14:00",
+      "lat": 38.89926,
+      "lon": -77.02195
+    },
+    {
+      "title": "Jaleo",
+      "description": "Buzzy Spanish spot from chef José Andrés serving tapas, paella & sangria in a striking, artsy space.",
+      "image": "images/jaleo.jpg",
+      "website": "https://www.jaleo.com/location/washington-dc/",
+      "startTime": "2025-06-29T15:00",
+      "endTime": "2025-06-29T17:30",
+      "lat": 38.89655,
+      "lon": -77.02185
+    },
+    {
+      "title": "Unconventional Diner",
+      "description": "Industrial‑chic bistro and bar for upscale comfort fare, coffee, beer, wine, and cocktails.",
+      "image": "images/unconventional‑diner.jpg",
+      "website": "http://unconventionaldiner.com",
+      "startTime": "2025-06-30T10:00",
+      "endTime": "2025-06-30T11:30",
+      "lat": 38.90617,
+      "lon": -77.02425
+    },
+    {
+      "title": "L’Ardente",
+      "description": "Elegant Italian restaurant with chandeliers and a gold‑plated pizza oven firing signature pies.",
+      "image": "images/lardente.jpg",
+      "website": "https://www.lardente.com",
+      "startTime": "2025-06-30T12:15",
+      "endTime": "2025-06-30T13:15",
+      "lat": 38.89949,
+      "lon": -77.01350
+    },
+    {
+      "title": "Laos in Town",
+      "description": "A menu featuring classic dishes from Laos in an elevated dining room with a marble counter bar.",
+      "image": "images/laos‑in‑town.jpg",
+      "website": "https://www.laosintown.com",
+      "startTime": "2025-06-30T13:45",
+      "endTime": "2025-06-30T14:45",
+      "lat": 38.90287,
+      "lon": -77.00185
+    },
+    {
+      "title": "YELLOW Union Market",
+      "description": "Trendy cafe offering pastries and Mediterranean flavors in a modern, stylish space inside Union Market.",
+      "image": "images/yellow‑union‑market.jpg",
+      "website": "http://yellowthecafe.com",
+      "startTime": "2025-06-30T15:00",
+      "endTime": "2025-06-30T16:00",
+      "lat": 38.90722,
+      "lon": -76.99864
+    },
+    {
+      "title": "The Wren at The Watermark Hotel",
+      "description": "Modern restaurant inside The Watermark Hotel offering refined American‑Japanese fusion cuisine.",
+      "image": "images/the‑wren.jpg",
+      "website": "https://www.thewatermarkhotel.com/eat/wren/",
+      "startTime": "2025-06-30T18:30",
+      "endTime": "2025-06-30T20:00",
+      "lat": 38.92567,
+      "lon": -77.23342
+    },
+    {
+      "title": "Renee's Crêpes & Cakes",
+      "description": "Sweet or savory crepes and house‑made cakes in a cozy setting.",
+      "image": "images/renees‑crepes.jpg",
+      "website": "https://www.grubhub.com/restaurant/renees-crepes--cakes-2020-augustine-ave-fredericksburg/1226084",
+      "startTime": "2025-07-01T12:00",
+      "endTime": "2025-07-01T13:00",
+      "lat": 38.28665,
+      "lon": -77.51034
+    },
+    {
+      "title": "Shyndigz",
+      "description": "Vibrant dessert specialist featuring a rotating menu of elaborate cakes & pies made from scratch.",
+      "image": "images/shyndigz.jpg",
+      "website": "http://www.shyndigz.com",
+      "startTime": "2025-07-01T14:00",
+      "endTime": "2025-07-01T14:30",
+      "lat": 37.54657,
+      "lon": -77.46122
+    }
+  ]
+}

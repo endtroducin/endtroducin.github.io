@@ -1,0 +1,184 @@
+:root {
+  --primary: dodgerblue;
+  --panel-bg: rgba(255, 255, 255, 0.95);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Fullscreen map container */
+#map {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 0;
+}
+
+/* Overlay info box */
+.info-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2); /* More transparent for blur effect */
+  padding: 0;
+  z-index: 10;
+  display: grid;
+  grid-template-rows: 1fr auto auto;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Slide panel content */
+.slide-panel {
+      border: #EEE solid 1px;
+
+}
+
+.slide-panel h3 {
+    padding: 0.5rem 0.5rem 0 0.5rem;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.slide-panel p {
+        padding: 0rem 0.5rem 0.5rem 0.5rem;
+
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.slide-panel button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Nav wrapper holds both time and day rows */
+.nav-wrapper {
+  display: grid;
+  grid-template-rows: auto auto;
+  width: 100%;
+  background: #eee;
+  border-top: 2px solid #aaa;
+}
+
+/* Base button styles */
+.day-nav button,
+.time-nav button {
+  font-family: 'Inter', sans-serif;
+  border: none;
+  background: rgba(255, 255, 255, 0.4); /* More transparent for blur effect */
+  text-align: center;
+  transition: background 0.2s ease;
+  width: 100%;
+}
+
+/* Day buttons */
+.day-nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+    border-top: #EEE solid 1px;
+
+}
+.day-nav button {
+  padding: 1.25rem;
+  font-size: 11pt;
+  font-weight: 300;
+}
+.day-nav button.active {
+  font-weight: 500;
+  background: rgba(55, 55, 55, 0.8); /* More transparent for blur effect */
+  color: white;
+  /* border: 1px solid #222; */
+}
+
+/* Time buttons */
+.time-nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  border-top: #EEE solid 1px;
+}
+.time-nav button {
+  padding: 0.5rem;
+  font-size: 8pt;
+  font-weight: 300;
+}
+.time-nav button.active {
+  font-weight: 500;
+  background: rgba(55, 55, 55, 0.6); /* More transparent for blur effect */
+  color: white;
+  /* border: 1px solid #222; */
+}
+
+.slide-image {
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+  display: block;
+}
+
+.slide-content {
+  /* padding: 1rem; */
+}
+
+.slide-content.clickable {
+  cursor: pointer;
+}
+
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+#map {
+  flex: 1;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+.info-overlay {
+  position: relative;
+  width:100%;                    /* portrait: full width */
+  background: var(--panel-bg);
+  backdrop-filter: blur(10px);
+  display:grid;
+  grid-template-rows:
+    auto     /* image/title */
+    1fr      /* content */
+    auto     /* nav */
+  ;
+}
+
+@media (orientation: landscape) {
+  .app-layout {
+    flex-direction: row;
+  }
+
+  #map {
+    height: 100%;
+    width: 50%;
+  }
+
+  .info-overlay {
+    height: 100%;
+    width: 50%;
+  }
+}
